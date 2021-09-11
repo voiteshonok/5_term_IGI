@@ -82,8 +82,6 @@ header, footer {
     left: unset !important;
 }
 
-.footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
+/*.footer {
+    margin-top:auto
+}*/
