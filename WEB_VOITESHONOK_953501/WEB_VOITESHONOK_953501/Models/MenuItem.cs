@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace WEB_VOITESHONOK_953501.Models
+{
+    public class MenuItem
+    {
+        public bool IsPage { get; set; } = false; // является ли страницей или методом контроллера
+        public string Area { get; set; } = ""; // имя области
+        public string Action { get; set; } = ""; // имя действия контроллера
+        public string Controller { get; set; } = ""; // имя страницы
+        public string Page { get; set; } = ""; // имя страницы
+        public string Active { get; set; } = ""; // класс CSS для текущего пункта меню
+        public string Text { get; set; } = ""; // текст надписи
+    }
+}
