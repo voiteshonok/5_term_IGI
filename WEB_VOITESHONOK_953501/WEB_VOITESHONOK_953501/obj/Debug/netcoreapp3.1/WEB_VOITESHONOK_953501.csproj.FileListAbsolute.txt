@@ -263,3 +263,9 @@ C:\Users\ACER\Desktop\5_term_IGI\WEB_VOITESHONOK_953501\WEB_VOITESHONOK_953501\o
 C:\Users\ACER\Desktop\5_term_IGI\WEB_VOITESHONOK_953501\WEB_VOITESHONOK_953501\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout - Copy.cshtml.g.cs
 C:\Users\ACER\Desktop\5_term_IGI\WEB_VOITESHONOK_953501\WEB_VOITESHONOK_953501\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_UserPartial.cshtml.g.cs
 C:\Users\ACER\Desktop\5_term_IGI\WEB_VOITESHONOK_953501\WEB_VOITESHONOK_953501\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Cart\Default.cshtml.g.cs
+C:\Users\ACER\Desktop\5_term_IGI\WEB_VOITESHONOK_953501\WEB_VOITESHONOK_953501\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+C:\Users\ACER\Desktop\5_term_IGI\WEB_VOITESHONOK_953501\WEB_VOITESHONOK_953501\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
+C:\Users\ACER\Desktop\5_term_IGI\WEB_VOITESHONOK_953501\WEB_VOITESHONOK_953501\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+C:\Users\ACER\Desktop\5_term_IGI\WEB_VOITESHONOK_953501\WEB_VOITESHONOK_953501\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+C:\Users\ACER\Desktop\5_term_IGI\WEB_VOITESHONOK_953501\WEB_VOITESHONOK_953501\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\ACER\Desktop\5_term_IGI\WEB_VOITESHONOK_953501\WEB_VOITESHONOK_953501\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
