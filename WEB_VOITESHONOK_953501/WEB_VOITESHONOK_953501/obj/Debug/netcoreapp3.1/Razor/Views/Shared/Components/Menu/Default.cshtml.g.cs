@@ -26,8 +26,15 @@ using WEB_VOITESHONOK_953501.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "C:\Users\ACER\Desktop\5_term_IGI\WEB_VOITESHONOK_953501\WEB_VOITESHONOK_953501\Views\_ViewImports.cshtml"
+using WEB_VOITESHONOK_953501.Entities;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"61e4a8838353f2811ba8f8709271b1a076ae334e", @"/Views/Shared/Components/Menu/Default.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"07b08a23983523d3c4ceb8913bdcfb0241fe184d", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"cc2ddcc52f4782d9e2e6fac56abd047f3ac4eeed", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared_Components_Menu_Default : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<IEnumerable<MenuItem>>
     {
         #line hidden
@@ -73,7 +80,7 @@ using WEB_VOITESHONOK_953501.Models;
 #line hidden
 #nullable disable
             WriteLiteral("            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "61e4a8838353f2811ba8f8709271b1a076ae334e3847", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "61e4a8838353f2811ba8f8709271b1a076ae334e4072", async() => {
                 WriteLiteral("\r\n                ");
 #nullable restore
 #line 15 "C:\Users\ACER\Desktop\5_term_IGI\WEB_VOITESHONOK_953501\WEB_VOITESHONOK_953501\Views\Shared\Components\Menu\Default.cshtml"
@@ -138,7 +145,7 @@ AddHtmlAttributeValue(" ", 301, item.Active, 302, 12, false);
 #line hidden
 #nullable disable
             WriteLiteral("            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "61e4a8838353f2811ba8f8709271b1a076ae334e7400", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "61e4a8838353f2811ba8f8709271b1a076ae334e7625", async() => {
                 WriteLiteral("\r\n                ");
 #nullable restore
 #line 23 "C:\Users\ACER\Desktop\5_term_IGI\WEB_VOITESHONOK_953501\WEB_VOITESHONOK_953501\Views\Shared\Components\Menu\Default.cshtml"

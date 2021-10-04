@@ -26,8 +26,15 @@ using WEB_VOITESHONOK_953501.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "C:\Users\ACER\Desktop\5_term_IGI\WEB_VOITESHONOK_953501\WEB_VOITESHONOK_953501\Views\_ViewImports.cshtml"
+using WEB_VOITESHONOK_953501.Entities;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4e8436b3faf53fb8ea5bdfd832abaacb97a77bbb", @"/Views/Shared/Components/Cart/Default.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"07b08a23983523d3c4ceb8913bdcfb0241fe184d", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"cc2ddcc52f4782d9e2e6fac56abd047f3ac4eeed", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared_Components_Cart_Default : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-controller", "Cart", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -59,7 +66,7 @@ using WEB_VOITESHONOK_953501.Models;
         {
             WriteLiteral("\r\n");
             WriteLiteral("\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4e8436b3faf53fb8ea5bdfd832abaacb97a77bbb4257", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4e8436b3faf53fb8ea5bdfd832abaacb97a77bbb4482", async() => {
                 WriteLiteral("\r\n    00,0 руб <i class=\"fas fa-shopping-cart nav-color\"></i> (0)\r\n");
             }
             );

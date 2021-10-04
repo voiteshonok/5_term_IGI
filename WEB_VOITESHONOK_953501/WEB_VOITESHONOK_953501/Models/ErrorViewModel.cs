@@ -1,5 +1,3 @@
-using System;
-
 namespace WEB_VOITESHONOK_953501.Models
 {
     public class ErrorViewModel

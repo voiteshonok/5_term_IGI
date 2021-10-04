@@ -1,8 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using WEB_VOITESHONOK_953501.Models;
 
 namespace WEB_VOITESHONOK_953501.Components
@@ -11,7 +8,7 @@ namespace WEB_VOITESHONOK_953501.Components
     {
         // Инициализация списка элементов меню
         List<MenuItem> _menuItems = new List<MenuItem>
-        { 
+        {
             new MenuItem{ Controller="Home", Action="Index", Text="Lab 2" },
             new MenuItem{ Controller="Product", Action="Index", Text="Каталог" },
             new MenuItem{ IsPage=true, Area="Admin", Page="/Index", Text="Администрирование" }
@@ -24,7 +21,7 @@ namespace WEB_VOITESHONOK_953501.Components
             var page = ViewContext.RouteData.Values["page"];
             var area = ViewContext.RouteData.Values["area"];
 
-            foreach(var item in _menuItems)
+            foreach (var item in _menuItems)
             {
                 // Название контроллера совпадает?
                 var _matchController = controller?.Equals(item.Controller) ?? false;
