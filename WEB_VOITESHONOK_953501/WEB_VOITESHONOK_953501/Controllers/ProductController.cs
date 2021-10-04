@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
+using System.Linq;
 using WEB_VOITESHONOK_953501.Entities;
+using WEB_VOITESHONOK_953501.Models;
 
 namespace WEB_VOITESHONOK_953501.Controllers
 {
@@ -9,13 +11,16 @@ namespace WEB_VOITESHONOK_953501.Controllers
         List<Dish> _dishes;
         List<DishGroup> _dishGroups;
 
-        public IActionResult Index()
+        int _pageSize;
+
+        public IActionResult Index(int pageNo=1)
         {
-            return View(_dishes);
+            return View(ListViewModel<Dish>.GetModel(_dishes, pageNo, _pageSize));
         }
 
         public ProductController()
         {
+            _pageSize = 3;
             SetupData();
         }
 
