@@ -13,9 +13,14 @@ namespace WEB_VOITESHONOK_953501.Controllers
 
         int _pageSize;
 
-        public IActionResult Index(int pageNo=1)
+        public IActionResult Index(int? group, int pageNo=1)
         {
-            return View(ListViewModel<Dish>.GetModel(_dishes, pageNo, _pageSize));
+            ViewData["Groups"] = _dishGroups;
+            ViewData["CurrentGroup"] = group ?? 0;
+
+            var dishesFiltered = _dishes.Where(d => !group.HasValue || d.DishGroupId == group.Value);
+
+            return View(ListViewModel<Dish>.GetModel(dishesFiltered, pageNo, _pageSize));
         }
 
         public ProductController()
