@@ -10,8 +10,8 @@ using WEB_VOITESHONOK_953501.Data;
 namespace WEB_VOITESHONOK_953501.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20210920094103_initial")]
-    partial class initial
+    [Migration("20211006164814_Initial")]
+    partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -99,12 +99,10 @@ namespace WEB_VOITESHONOK_953501.Migrations
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
                     b.Property<string>("LoginProvider")
-                        .HasColumnType("nvarchar(128)")
-                        .HasMaxLength(128);
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("ProviderKey")
-                        .HasColumnType("nvarchar(128)")
-                        .HasMaxLength(128);
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("ProviderDisplayName")
                         .HasColumnType("nvarchar(max)");
@@ -141,12 +139,10 @@ namespace WEB_VOITESHONOK_953501.Migrations
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("LoginProvider")
-                        .HasColumnType("nvarchar(128)")
-                        .HasMaxLength(128);
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Name")
-                        .HasColumnType("nvarchar(128)")
-                        .HasMaxLength(128);
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Value")
                         .HasColumnType("nvarchar(max)");
@@ -163,6 +159,9 @@ namespace WEB_VOITESHONOK_953501.Migrations
 
                     b.Property<int>("AccessFailedCount")
                         .HasColumnType("int");
+
+                    b.Property<byte[]>("AvatarImage")
+                        .HasColumnType("varbinary(max)");
 
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken()
@@ -221,6 +220,50 @@ namespace WEB_VOITESHONOK_953501.Migrations
                     b.ToTable("AspNetUsers");
                 });
 
+            modelBuilder.Entity("WEB_VOITESHONOK_953501.Entities.Dish", b =>
+                {
+                    b.Property<int>("DishId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("Calories")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("DishGroupId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("DishName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Image")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("DishId");
+
+                    b.HasIndex("DishGroupId");
+
+                    b.ToTable("Dishes");
+                });
+
+            modelBuilder.Entity("WEB_VOITESHONOK_953501.Entities.DishGroup", b =>
+                {
+                    b.Property<int>("DishGroupId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("GroupName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("DishGroupId");
+
+                    b.ToTable("DishGroups");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -268,6 +311,15 @@ namespace WEB_VOITESHONOK_953501.Migrations
                     b.HasOne("WEB_VOITESHONOK_953501.Entities.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("WEB_VOITESHONOK_953501.Entities.Dish", b =>
+                {
+                    b.HasOne("WEB_VOITESHONOK_953501.Entities.DishGroup", "Group")
+                        .WithMany("Dishes")
+                        .HasForeignKey("DishGroupId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
