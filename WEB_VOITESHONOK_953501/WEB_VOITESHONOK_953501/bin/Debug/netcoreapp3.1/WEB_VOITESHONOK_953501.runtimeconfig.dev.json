@@ -3,7 +3,7 @@
     "additionalProbingPaths": [
       "C:\\Users\\ACER\\.dotnet\\store\\|arch|\\|tfm|",
       "C:\\Users\\ACER\\.nuget\\packages",
-      "D:\\Microsoft\\Xamarin\\NuGet"
+      "D:\\Visual Studio SDK\\NuGetPackages"
     ]
   }
 }

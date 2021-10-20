@@ -23,8 +23,6 @@ namespace WEB_VOITESHONOK_953501.Controllers
             ViewData["Groups"] = _context.DishGroups;
             ViewData["CurrentGroup"] = group ?? 0;
 
-            //var dishesFiltered = _dishes.Where(d => !group.HasValue || d.DishGroupId == group.Value);
-
             var model = ListViewModel<Dish>.GetModel(dishesFiltered, pageNo, _pageSize);
             if (Request.IsAjaxRequest())
                 return PartialView("_listpartial", model);
