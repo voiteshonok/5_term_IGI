@@ -1,0 +1,154 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\GitHub\\5_term_IGI\\WEB_VOITESHONOK_953501\\WEB_VOITESHONOK_953501.Blazor\\Client\\WEB_VOITESHONOK_953501.Blazor.Client.csproj": {}
+  },
+  "projects": {
+    "D:\\GitHub\\5_term_IGI\\WEB_VOITESHONOK_953501\\WEB_VOITESHONOK_953501.Blazor\\Client\\WEB_VOITESHONOK_953501.Blazor.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GitHub\\5_term_IGI\\WEB_VOITESHONOK_953501\\WEB_VOITESHONOK_953501.Blazor\\Client\\WEB_VOITESHONOK_953501.Blazor.Client.csproj",
+        "projectName": "WEB_VOITESHONOK_953501.Blazor.Client",
+        "projectPath": "D:\\GitHub\\5_term_IGI\\WEB_VOITESHONOK_953501\\WEB_VOITESHONOK_953501.Blazor\\Client\\WEB_VOITESHONOK_953501.Blazor.Client.csproj",
+        "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\5_term_IGI\\WEB_VOITESHONOK_953501\\WEB_VOITESHONOK_953501.Blazor\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Visual Studio SDK\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\GitHub\\5_term_IGI\\WEB_VOITESHONOK_953501\\WEB_VOITESHONOK_953501.Blazor\\Shared\\WEB_VOITESHONOK_953501.Blazor.Shared.csproj": {
+                "projectPath": "D:\\GitHub\\5_term_IGI\\WEB_VOITESHONOK_953501\\WEB_VOITESHONOK_953501.Blazor\\Shared\\WEB_VOITESHONOK_953501.Blazor.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.browser-wasm",
+              "version": "[5.0.11, 5.0.11]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\GitHub\\5_term_IGI\\WEB_VOITESHONOK_953501\\WEB_VOITESHONOK_953501.Blazor\\Shared\\WEB_VOITESHONOK_953501.Blazor.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GitHub\\5_term_IGI\\WEB_VOITESHONOK_953501\\WEB_VOITESHONOK_953501.Blazor\\Shared\\WEB_VOITESHONOK_953501.Blazor.Shared.csproj",
+        "projectName": "WEB_VOITESHONOK_953501.Blazor.Shared",
+        "projectPath": "D:\\GitHub\\5_term_IGI\\WEB_VOITESHONOK_953501\\WEB_VOITESHONOK_953501.Blazor\\Shared\\WEB_VOITESHONOK_953501.Blazor.Shared.csproj",
+        "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\5_term_IGI\\WEB_VOITESHONOK_953501\\WEB_VOITESHONOK_953501.Blazor\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Visual Studio SDK\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
