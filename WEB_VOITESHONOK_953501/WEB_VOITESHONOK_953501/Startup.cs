@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
 using WEB_VOITESHONOK_953501.Data;
 using WEB_VOITESHONOK_953501.Entities;
 using WEB_VOITESHONOK_953501.Models;
@@ -65,7 +66,7 @@ namespace WEB_VOITESHONOK_953501
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ApplicationDbContext context,
-            UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager)
+            UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager, ILoggerFactory logger)
         {
             if (env.IsDevelopment())
             {
@@ -78,6 +79,7 @@ namespace WEB_VOITESHONOK_953501
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+            logger.AddFile("Logs/log-{Date}.txt");
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 

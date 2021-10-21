@@ -14,9 +14,7 @@ namespace WEB_VOITESHONOK_953501.Components
 
         public IViewComponentResult Invoke()
         {
-            //var cart = HttpContext.Session.Get<Cart>("cart");
             return View(_cart);
-
         }
     }
 }
