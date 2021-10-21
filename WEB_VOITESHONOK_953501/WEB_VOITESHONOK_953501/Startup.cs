@@ -9,6 +9,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using WEB_VOITESHONOK_953501.Data;
 using WEB_VOITESHONOK_953501.Entities;
+using WEB_VOITESHONOK_953501.Extensions;
 using WEB_VOITESHONOK_953501.Models;
 using WEB_VOITESHONOK_953501.Services;
 
@@ -80,6 +81,8 @@ namespace WEB_VOITESHONOK_953501
                 app.UseHsts();
             }
             logger.AddFile("Logs/log-{Date}.txt");
+            app.UseFileLogging();
+
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 

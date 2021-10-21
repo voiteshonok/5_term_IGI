@@ -13,7 +13,7 @@
     </WebStackScaffolding_LayoutPageFile>
     <_SelectedScaffolderID>RazorViewScaffolder</_SelectedScaffolderID>
     <_SelectedScaffolderCategoryPath>root/Common/MVC</_SelectedScaffolderCategoryPath>
-    <ActiveDebugProfile>IIS Express</ActiveDebugProfile>
+    <ActiveDebugProfile>WEB_VOITESHONOK_953501</ActiveDebugProfile>
     <WebStackScaffolding_DbContextTypeFullName>WEB_VOITESHONOK_953501.Data.ApplicationDbContext</WebStackScaffolding_DbContextTypeFullName>
     <WebStackScaffolding_ControllerDialogWidth>650</WebStackScaffolding_ControllerDialogWidth>
   </PropertyGroup>
