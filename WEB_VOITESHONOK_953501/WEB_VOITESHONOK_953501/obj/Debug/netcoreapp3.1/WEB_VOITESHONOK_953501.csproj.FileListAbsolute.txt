@@ -458,3 +458,4 @@ D:\GitHub\5_term_IGI\WEB_VOITESHONOK_953501\WEB_VOITESHONOK_953501\obj\Debug\net
 D:\GitHub\5_term_IGI\WEB_VOITESHONOK_953501\WEB_VOITESHONOK_953501\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Pages\_ViewImports.cshtml.g.cs
 D:\GitHub\5_term_IGI\WEB_VOITESHONOK_953501\WEB_VOITESHONOK_953501\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Pages\_ViewStart.cshtml.g.cs
 D:\GitHub\5_term_IGI\WEB_VOITESHONOK_953501\WEB_VOITESHONOK_953501\obj\Debug\netcoreapp3.1\Razor\Pages\_ValidationScriptsPartial.cshtml.g.cs
+D:\GitHub\5_term_IGI\WEB_VOITESHONOK_953501\WEB_VOITESHONOK_953501\obj\Debug\netcoreapp3.1\Razor\Views\Cart\Index.cshtml.g.cs
