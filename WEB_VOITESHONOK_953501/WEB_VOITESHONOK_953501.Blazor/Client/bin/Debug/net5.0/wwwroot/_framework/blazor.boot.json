@@ -196,12 +196,12 @@
       "netstandard.dll": "sha256-mbIVAluJ7cAx0vUQshB\/c1zEIK5JcYwIYxo\/BQ\/meRU=",
       "System.Private.CoreLib.dll": "sha256-FrZbEyy47f3RDuj77R5oHUGxSGEDgRRxykTjImrLqfM=",
       "WEB_VOITESHONOK_953501.Blazor.Shared.dll": "sha256-PAenZBxcSiZcU6m2ob93UYsYMpb6C1RpdVrU68+NP\/s=",
-      "WEB_VOITESHONOK_953501.Blazor.Client.dll": "sha256-+7tX\/kwINvYnXkyca\/csm\/7JK9px39ADFT4TLziVLcg="
+      "WEB_VOITESHONOK_953501.Blazor.Client.dll": "sha256-Bx5fM2LgGZWRYmqg07+YPd\/MbtsOhKm9vJ764\/uL010="
     },
     "lazyAssembly": null,
     "pdb": {
       "WEB_VOITESHONOK_953501.Blazor.Shared.pdb": "sha256-fclfodiX7xoiDRJyND5U3mTQA9VaDK0pgU91dt+B\/gE=",
-      "WEB_VOITESHONOK_953501.Blazor.Client.pdb": "sha256-EcgsETXrlb717cs+EXA\/E10sxr8sWlR5NmfqENi\/8B4="
+      "WEB_VOITESHONOK_953501.Blazor.Client.pdb": "sha256-qRCF1tT+CvxtrmERXbQlp5bKMI1L17tfomsYDcgEBPk="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-5ttRwTa4Rar530elwLdfGDeH9I9NX9MPyDl6zLi9uug=",

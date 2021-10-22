@@ -79,6 +79,20 @@ using WEB_VOITESHONOK_953501.Blazor.Client.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 11 "D:\GitHub\5_term_IGI\WEB_VOITESHONOK_953501\WEB_VOITESHONOK_953501.Blazor\Client\_Imports.razor"
+using WEB_VOITESHONOK_953501.Blazor.Client.Models;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 12 "D:\GitHub\5_term_IGI\WEB_VOITESHONOK_953501\WEB_VOITESHONOK_953501.Blazor\Client\_Imports.razor"
+using System.ComponentModel.DataAnnotations;
+
+#line default
+#line hidden
+#nullable disable
     public partial class SurveyPrompt : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998

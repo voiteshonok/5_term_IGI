@@ -633,3 +633,9 @@ D:\GitHub\5_term_IGI\WEB_VOITESHONOK_953501\WEB_VOITESHONOK_953501.Blazor\Client
 D:\GitHub\5_term_IGI\WEB_VOITESHONOK_953501\WEB_VOITESHONOK_953501.Blazor\Client\obj\Debug\net5.0\WEB_VOITESHONOK_953501.Blazor.Client.dll
 D:\GitHub\5_term_IGI\WEB_VOITESHONOK_953501\WEB_VOITESHONOK_953501.Blazor\Client\obj\Debug\net5.0\ref\WEB_VOITESHONOK_953501.Blazor.Client.dll
 D:\GitHub\5_term_IGI\WEB_VOITESHONOK_953501\WEB_VOITESHONOK_953501.Blazor\Client\obj\Debug\net5.0\WEB_VOITESHONOK_953501.Blazor.Client.pdb
+D:\GitHub\5_term_IGI\WEB_VOITESHONOK_953501\WEB_VOITESHONOK_953501.Blazor\Client\obj\Debug\net5.0\RazorDeclaration\Pages\ApiDemo.razor.g.cs
+D:\GitHub\5_term_IGI\WEB_VOITESHONOK_953501\WEB_VOITESHONOK_953501.Blazor\Client\obj\Debug\net5.0\Razor\Pages\ApiDemo.razor.g.cs
+D:\GitHub\5_term_IGI\WEB_VOITESHONOK_953501\WEB_VOITESHONOK_953501.Blazor\Client\obj\Debug\net5.0\RazorDeclaration\Components\Components.razor.g.cs
+D:\GitHub\5_term_IGI\WEB_VOITESHONOK_953501\WEB_VOITESHONOK_953501.Blazor\Client\obj\Debug\net5.0\RazorDeclaration\Components\DishesList.razor.g.cs
+D:\GitHub\5_term_IGI\WEB_VOITESHONOK_953501\WEB_VOITESHONOK_953501.Blazor\Client\obj\Debug\net5.0\Razor\Components\Components.razor.g.cs
+D:\GitHub\5_term_IGI\WEB_VOITESHONOK_953501\WEB_VOITESHONOK_953501.Blazor\Client\obj\Debug\net5.0\Razor\Components\DishesList.razor.g.cs

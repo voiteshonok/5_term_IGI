@@ -2,4 +2,6 @@
   <ContentRoot BasePath="/" Path="D:\GitHub\5_term_IGI\WEB_VOITESHONOK_953501\WEB_VOITESHONOK_953501.Blazor\Client\bin\Debug\net5.0\wwwroot\" />
   <ContentRoot BasePath="/" Path="D:\GitHub\5_term_IGI\WEB_VOITESHONOK_953501\WEB_VOITESHONOK_953501.Blazor\Client\obj\Debug\net5.0\scopedcss\bundle\" />
   <ContentRoot BasePath="/" Path="D:\GitHub\5_term_IGI\WEB_VOITESHONOK_953501\WEB_VOITESHONOK_953501.Blazor\Client\wwwroot\" />
+  <ContentRoot BasePath="/Identity" Path="C:\Users\ACER\.nuget\packages\microsoft.aspnetcore.identity.ui\3.1.18\staticwebassets\V4\" />
+  <ContentRoot BasePath="_content/WEB_VOITESHONOK_953501" Path="D:\GitHub\5_term_IGI\WEB_VOITESHONOK_953501\WEB_VOITESHONOK_953501\wwwroot\" />
 </StaticWebAssets>

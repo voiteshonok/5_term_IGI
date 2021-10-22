@@ -82,6 +82,20 @@ using WEB_VOITESHONOK_953501.Blazor.Client.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 11 "D:\GitHub\5_term_IGI\WEB_VOITESHONOK_953501\WEB_VOITESHONOK_953501.Blazor\Client\_Imports.razor"
+using WEB_VOITESHONOK_953501.Blazor.Client.Models;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 12 "D:\GitHub\5_term_IGI\WEB_VOITESHONOK_953501\WEB_VOITESHONOK_953501.Blazor\Client\_Imports.razor"
+using System.ComponentModel.DataAnnotations;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/counter")]
     public partial class Counter : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -106,13 +120,16 @@ using WEB_VOITESHONOK_953501.Blazor.Client.Shared;
 
     class FormModel
     {
+        [DataType("int")]
+        [Range(0, int.MaxValue)]
         public int NewValue { get; set; }
     }
 
     private void SetCounter()
     {
         currentCount = formModel.NewValue;
-    }
+    }
+
 
 #line default
 #line hidden
