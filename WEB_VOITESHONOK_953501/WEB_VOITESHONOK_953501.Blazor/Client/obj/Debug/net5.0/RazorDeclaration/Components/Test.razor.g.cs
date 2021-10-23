@@ -96,31 +96,13 @@ using System.ComponentModel.DataAnnotations;
 #line default
 #line hidden
 #nullable disable
-    public partial class Components : Microsoft.AspNetCore.Components.ComponentBase
+    public partial class Test : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
         {
         }
         #pragma warning restore 1998
-#nullable restore
-#line 14 "D:\GitHub\5_term_IGI\WEB_VOITESHONOK_953501\WEB_VOITESHONOK_953501.Blazor\Client\Components\Components.razor"
-       
-    [Parameter]
-    public DetailsViewModel Dish { get; set; }
-    [Parameter]
-    public EventCallback<DetailsViewModel> DishChanged { get; set; }
-    string imageSrc
-    {
-        get
-        {
-            return $"images/{Dish.Image}";
-        }
-    }
-
-#line default
-#line hidden
-#nullable disable
     }
 }
 #pragma warning restore 1591

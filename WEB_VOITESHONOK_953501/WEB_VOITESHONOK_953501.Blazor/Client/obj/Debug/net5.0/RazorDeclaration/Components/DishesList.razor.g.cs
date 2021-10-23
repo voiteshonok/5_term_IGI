@@ -108,6 +108,7 @@ using System.ComponentModel.DataAnnotations;
        
     [Parameter]
     public IEnumerable<ListViewModel> Dishes { get; set; }
+
     [Parameter]
     public EventCallback<IEnumerable<ListViewModel>> DishesChanged
     {

@@ -112,23 +112,21 @@ using WEB_VOITESHONOK_953501.Blazor.Client.Components;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 12 "D:\GitHub\5_term_IGI\WEB_VOITESHONOK_953501\WEB_VOITESHONOK_953501.Blazor\Client\Pages\ApiDemo.razor"
-               
-            [Parameter]
-            public IEnumerable<ListViewModel> Dishes { get; set; }
-            protected override async Task OnInitializedAsync()
-            {
-                Dishes = await
-               client.GetFromJsonAsync<IEnumerable<ListViewModel>>("api/dishes");
-            }
+#line 16 "D:\GitHub\5_term_IGI\WEB_VOITESHONOK_953501\WEB_VOITESHONOK_953501.Blazor\Client\Pages\ApiDemo.razor"
+       
+    [Parameter]
+    public IEnumerable<ListViewModel> Dishes { get; set; }
+    protected override async Task OnInitializedAsync()
+    {
+        Dishes = await client.GetFromJsonAsync<IEnumerable<ListViewModel>>("api/dishes");
+    }
 
-            [Parameter]
-            public DetailsViewModel SelectedDish { get; set; }
-            private async Task ShowDetails(int id)
-            {
-                SelectedDish = await client.GetFromJsonAsync<DetailsViewModel>($"api/dishes/{id}");
-            }
-        
+    [Parameter]
+    public DetailsViewModel SelectedDish { get; set; }
+    private async Task ShowDetails(int id)
+    {
+        SelectedDish = await client.GetFromJsonAsync<DetailsViewModel>($"api/dishes/{id}");
+    }
 
 #line default
 #line hidden

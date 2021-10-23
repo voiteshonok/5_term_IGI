@@ -6,8 +6,12 @@
 @inject HttpClient client
 <div class="container">
     <DishesList @bind-Dishes="@Dishes" SelectedObjectChanged="ShowDetails"></DishesList>
-    @*<DishDetails @bind-Dish="@SelectedDish"></DishDetails>*@
-        </div>
+
+
+
+    <DishDetails @bind-Dish="@SelectedDish"></DishDetails>
+   
+</div>
 
 @code {
     [Parameter]

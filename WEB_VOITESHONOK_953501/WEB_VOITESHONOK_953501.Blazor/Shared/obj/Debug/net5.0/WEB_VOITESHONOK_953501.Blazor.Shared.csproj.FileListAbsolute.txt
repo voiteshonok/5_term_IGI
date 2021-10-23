@@ -2,7 +2,6 @@ D:\GitHub\5_term_IGI\WEB_VOITESHONOK_953501\WEB_VOITESHONOK_953501.Blazor\Shared
 D:\GitHub\5_term_IGI\WEB_VOITESHONOK_953501\WEB_VOITESHONOK_953501.Blazor\Shared\bin\Debug\net5.0\WEB_VOITESHONOK_953501.Blazor.Shared.dll
 D:\GitHub\5_term_IGI\WEB_VOITESHONOK_953501\WEB_VOITESHONOK_953501.Blazor\Shared\bin\Debug\net5.0\ref\WEB_VOITESHONOK_953501.Blazor.Shared.dll
 D:\GitHub\5_term_IGI\WEB_VOITESHONOK_953501\WEB_VOITESHONOK_953501.Blazor\Shared\bin\Debug\net5.0\WEB_VOITESHONOK_953501.Blazor.Shared.pdb
-D:\GitHub\5_term_IGI\WEB_VOITESHONOK_953501\WEB_VOITESHONOK_953501.Blazor\Shared\obj\Debug\net5.0\WEB_VOITESHONOK_953501.Blazor.Shared.csproj.AssemblyReference.cache
 D:\GitHub\5_term_IGI\WEB_VOITESHONOK_953501\WEB_VOITESHONOK_953501.Blazor\Shared\obj\Debug\net5.0\WEB_VOITESHONOK_953501.Blazor.Shared.GeneratedMSBuildEditorConfig.editorconfig
 D:\GitHub\5_term_IGI\WEB_VOITESHONOK_953501\WEB_VOITESHONOK_953501.Blazor\Shared\obj\Debug\net5.0\WEB_VOITESHONOK_953501.Blazor.Shared.AssemblyInfoInputs.cache
 D:\GitHub\5_term_IGI\WEB_VOITESHONOK_953501\WEB_VOITESHONOK_953501.Blazor\Shared\obj\Debug\net5.0\WEB_VOITESHONOK_953501.Blazor.Shared.AssemblyInfo.cs

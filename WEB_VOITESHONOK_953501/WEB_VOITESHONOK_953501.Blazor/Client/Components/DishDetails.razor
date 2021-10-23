@@ -7,15 +7,17 @@
         <p>@Dish.DishName - @Dish.Description</p>
         <div class="badge badge-info ">
             @Dish.Calories
-        калорий
+            калорий
+        </div>
     </div>
-</div>
 }
 @code {
     [Parameter]
     public DetailsViewModel Dish { get; set; }
+
     [Parameter]
     public EventCallback<DetailsViewModel> DishChanged { get; set; }
+
     string imageSrc
     {
         get
